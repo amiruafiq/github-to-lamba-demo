@@ -25,6 +25,11 @@ git clone https://github.com/amiruafiq/github-to-lamba-demo
 
 6) From VS Code - push to github
 ## Working with Git
+```
+- gitadd .
+- git commit -am 'comment'
+- git push origin main
+```
 
 ### Quick Start
 ```
