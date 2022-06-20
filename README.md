@@ -1,6 +1,6 @@
 # github-to-lamba-demo
 
-1) Create Function 
+1) Create Function (at AWS site)
     - give name function
     - runtime (python/node.js)
     
