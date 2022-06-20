@@ -14,7 +14,10 @@ phases:
       - cd ..
       - zip -g deployment_package.zip lambda_function.py
   post_build:
-    commands:
+    commands: #aws command
       - echo "Updating lambda Function..."
-      - aws lambda update-function-code --function-name github-to-lambda-demo --zip-file fileb://deployment_package.zip
+      #- aws lambda update-function-code --function-name <lambda project name= get at aws lambda console> --zip-file fileb://deployment_package.zip
+      - aws lambda update-function-code --function-name github-to-lamba-demo --zip-file fileb://deployment_package.zip
       - echo "DONE!!"
+
+      #this is commeent#
