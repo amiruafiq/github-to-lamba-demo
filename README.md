@@ -1,4 +1,5 @@
 # github-to-lamba-demo
+[Source Video/Tutorial](https://www.youtube.com/watch?v=AmHZxULclLQ&t=132s)
 
 1) Create Function (at AWS site)
     - give name function
@@ -14,9 +15,12 @@ git clone https://github.com/amiruafiq/github-to-lamba-demo
 /Users/amirulafiq/TestFunctionLambda/github-to-lamba-demo
 ```
 5) Create all related file 
-> lambda_function.py. [source code]([https://pages.github.com/](https://github.com/felixyu9/github-to-lambda-demo/blob/main/lambda_function.py))
-> requirements.txt [source code]([https://github.com/felixyu9/github-to-lambda-demo/blob/main/requirements.txt])
-> iam-policy.json -to be put in AWS [source code] ([https://github.com/felixyu9/github-to-lambda-demo/blob/main/iam-policy.json])
+
+- lambda_function.py. [source code](https://github.com/felixyu9/github-to-lambda-demo/blob/main/lambda_function.py)
+[Source Video/Tutorial](https://www.youtube.com/watch?v=AmHZxULclLQ&t=132s)
+- requirements.txt [source code](https://github.com/felixyu9/github-to-lambda-demo/blob/main/requirements.txt)
+- iam-policy.json *to be put in AWS* [source code](https://github.com/felixyu9/github-to-lambda-demo/blob/main/iam-policy.json)
+
 
 
 6) From VS Code - push to github
