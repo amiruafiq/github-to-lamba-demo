@@ -6,8 +6,9 @@ git add .
 git commit -am 'added demo lamba code'
 git push origin main
 '''
-
-For deployment you can run script that execute sam cli
-
-yarn deploy
-Kubernetes Config
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
