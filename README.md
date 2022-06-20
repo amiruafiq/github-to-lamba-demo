@@ -23,47 +23,47 @@ git clone https://github.com/amiruafiq/github-to-lamba-demo
 ## Working with Git
 
 ### Quick Start
--$git clone <url> 					# Clone directory
--$git checkout -b <new-branch> 		# Create new local branch
--$git push -u origin <new-branch> 	# Sync local branch with remote
--$git checkout <branch> 				# Checkout branch
--$git push origin <branch> 			# Push branch to remote
+- $git clone <url> 					# Clone directory
+- $git checkout -b <new-branch> 		# Create new local branch
+- $git push -u origin <new-branch> 	# Sync local branch with remote
+- $git checkout <branch> 				# Checkout branch
+- $git push origin <branch> 			# Push branch to remote
 
--$git branch -d <branchname>   	# deletes local branch
--$git push origin :<branchname>	# deletes remote branch
+- $git branch -d <branchname>   	# deletes local branch
+- $git push origin :<branchname>	# deletes remote branch
 
-$git subtree push --prefix docs origin gh-pages  # push docs as subtree to gh-pages
+- $git subtree push --prefix docs origin gh-pages  # push docs as subtree to gh-pages
 
 
 
 ### Clone Directory
-$git clone <url>
+- $git clone <url>
 
 
 
 ### Create Project
--$cd project/
--$git init                    # initializes the repository
--$git add .                   # add those 'unknown' files
--$git commit                  # commit all changes, edit changelog entry
--$git rm --cached <file>...   # ridiculously complicated command to undo, in case you forgot .gitignore
+- $cd project/
+- $git init                    # initializes the repository
+- $git add .                   # add those 'unknown' files
+- $git commit                  # commit all changes, edit changelog entry
+- $git rm --cached <file>...   # ridiculously complicated command to undo, in case you forgot .gitignore
 
 
 
 ### Branching and Merging
--$git branch                          # show list of all branches (* is active)
--$git checkout -b linux-work          # create a new branch named "linux-work"
+- $git branch                          # show list of all branches (* is active)
+- $git checkout -b linux-work          # create a new branch named "linux-work"
 <make changes>
--$git commit -a
--$git checkout master                 # go back to master branch
--$git merge linux-work                # merge changesets from linux-work (Git >= 1.5)
--$git pull . linux-work               # merge changesets from linux-work (all Git versions)
--$git branch -m <oldname> <newname>   # rename branch
--$git branch -m <newname>             # rename current branch
+- $git commit -a
+- $git checkout master                 # go back to master branch
+- $git merge linux-work                # merge changesets from linux-work (Git >= 1.5)
+- $git pull . linux-work               # merge changesets from linux-work (all Git versions)
+- $git branch -m <oldname> <newname>   # rename branch
+- $git branch -m <newname>             # rename current branch
 
 
 
 ### Delete Project
--$git branch -d <branchname>   	# deletes local branch
--$git push origin :<branchname>	# deletes remote branch
--$git remote prune <branchname>	# update local/remote sync
+- $git branch -d <branchname>   	# deletes local branch
+- $git push origin :<branchname>	# deletes remote branch
+- $git remote prune <branchname>	# update local/remote sync
